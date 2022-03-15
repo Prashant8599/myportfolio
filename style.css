@@ -4,30 +4,28 @@ COMMON
 
 ***********/
 
-body{
+body {
     font-family:"monospace",sans-serif;
 }
 
-.font-primary{
-    color : #00abae
+.font-primary {
+    color : #00abae;
 }
 .title-icon{
-
     font-size: 20px;
-    font-weight:bold;
-}
+    font-weight:bold;}
 p{
-    font-size:14px;
+    font-size:20px;
 }
 
-h2{
+h2 {
     font-weight:bold;
     font-size:23px;
-    margin-bottom:20px
-
+    margin-bottom:20px;
 }
-a.font-black{
-    color:#000!important
+
+a.font-black {
+    color:#000!important;
 }
 /***********
 ABOUT
@@ -38,13 +36,13 @@ ABOUT
     text-align: center;
 
 }
-#about .skills{
+#about .skills {
     font-size: 14px;
     color:#00ABAE;
     margin-bottom: 10px;
 }
-#about .email{
-    margin-top : 14px;
+#about .email {
+    margin-top :14px;
     font-size: 14px;
 }
 #about img{
@@ -56,16 +54,29 @@ ABOUT
     margin-top:20px;
     font-size:30px;
 }
+#about .icons a {
+    color: rgb(0, 0, 0);
+}
+#about .vocation {
+    font-size: 14px;
+    color: #00abae;
+    margin-bottom: 10px;
+}
+#about .name{
+    size: 19px;
+}
+
 /**************
 project
 ***************/
-#project {
+#project{
     margin: 60px auto;
-    width: 80%
+    width: 80%;
 }
 #project h2{
-    text-align :center;
+    text-align:center;
 }
+
 #project .card img{
     width: 100%;
 }
